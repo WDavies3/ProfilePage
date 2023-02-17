@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="profile_page">
+        <!-- Navigation Bar -->
+        <div class="navigation-banner">
+            <div class="nav-bar">
+                <div class="nav-contents-start">
+                    <h1>Profile</h1>
+                    <ul class="nav-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">My Profile</a></li>
+                        <li><a href="#">Find Connections</a></li>
+                    </ul>
+                </div>
+                <div class="nav-contents-end">
+                    <button id="sign_out">Sign Out</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main content -->
+        <div class="content">
+
+            <!-- 1st column -->
+            <div class="column1">
+                <!-- profile card -->
+                <div id="card">
+                    <div id="top-banner">
+                        <img id="profile-pic" src="./images/jane-m.jpg" alt="profile photo">
+                    </div>
+                    <div id="user-data">
+                        <h1>Jane Doe</h1>
+                        <h3>
+                            <img id="marker" src="./icons/map-marker.png" alt="map marker">
+                            Seattle
+                        </h3>
+                        <p>
+                            Developer | Engineer | Problem Solver
+                            <br>
+                            Master of shadows and the Internet!
+                        </p>
+                        <img id="gear" src="./icons/gear.png" alt="gear">
+                        <a href="#">edit profile</a>
+                    </div>
+                </div>
+                <!-- education box -->
+                <div id="education-box">
+                    <div id="education-banner">
+                        <h3>Education</h3>
+                    </div>
+                    <div id="education-data">
+                        <h2>Coding Dojo - Full Stack Bootcamp</h2>
+                        <p>Dec 2019 - Mar 2020</p>
+                        <p>Triple black belt in Python, MERN, and C#...</p>
+                    </div>
+
+                </div>
+            </div>
+            <!-- 2nd column -->
+            <div class="column2">
+                <!-- request box -->
+                <div id="connection-request-box">
+                    <div id="connection-request-banner">
+                        <h3><span id="request-count">2</span> Connection Requests</h3>
+                    </div>
+                    <div id="requests-data">
+                        <ul id="requests">
+                            <li class="request">
+                                <div class="connection-request">
+                                    <div class="user">
+                                        <img src="./images/todd-s.jpg" alt="Todd" class="user-image">
+                                        Todd E
+                                    </div>
+                                    <div class="arrirm-deny">
+                                        <img src="./icons/accept-circle.png" alt="accept" class="affirm-deny-image">
+                                        <img src="./icons/close-circle.png" alt="deny" class="affirm-deny-image">
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="request">
+                                <div class="connection-request">
+                                    <div class="user">
+                                        <img src="./images/phil-s.jpg" alt="Phil" class="user-image">
+                                        Phil K
+                                    </div>
+                                    <div class="arrirm-deny">
+                                        <img src="./icons/accept-circle.png" alt="accept" class="affirm-deny-image">
+                                        <img src="./icons/close-circle.png" alt="deny" class="affirm-deny-image">
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- connection box -->
+                <div id="your-connection-box">
+                    <div id="your-connection-banner">
+                        <h3><span id="connection-count">500+</span>Your Connections</h3>
+                    </div>
+                    <div id="connection-data">
+                        <ul id="connections">
+                            <li class="connection">
+                                <div class="connected_user">
+                                    <img src="./images/adrien-s.jpg" alt="Adrien" class="user-image">
+                                    Adrian D
+                                </div>
+                            </li>
+                            <li class="connection">
+                                <div class="connected_user">
+                                    <img src="./images/anne-s.jpg" alt="Anne" class="user-image">
+                                    Anne J
+                                </div>
+                            </li>
+                            <li class="connection">
+                                <div class="connected_user">
+                                    <img src="./images/alayne-s.jpg" alt="Alayne" class="user-image">
+                                    Alayne T
+                                </div>
+                            </li>
+                            <li class="connection">
+                                <div class="connected_user">
+                                    <img src="./images/arry-s.jpg" alt="Arry" class="user-image">
+                                    Arry Y
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="view_more">
+                        <a href="#">View More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
